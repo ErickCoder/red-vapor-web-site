@@ -1,0 +1,87 @@
+.hero {
+  background-image: url('../../public/images/Img-Hero.png');
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 1451px;
+  margin: auto;
+}
+
+/* INFO HERO */
+
+.title{
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.subtitle{
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.description{
+  padding: 0 30px;
+  padding-bottom: 15px;
+}
+
+.spanVapor{
+  color: var(--primary-color);
+}
+
+
+
+.visitButton{
+  background-color: var(--primary-color);
+  padding: 15px;
+  border-radius: 10px;
+  
+
+}
+.buttonVisitContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.container{
+ position: absolute;
+text-align: center;
+;
+}
+.infoHeroContainer{
+ gap: 20px;
+}
+
+
+
+@media (max-width: 767px) {
+  .hero {
+    background-position: center center;
+    margin: 80px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-position-x: center;
+  }
+  .container{
+   
+    margin-top: 90px;
+
+  }
+  .visitButton{
+    margin-top: 30px;
+  }
+  .descriptionContainer{
+    
+  
+    margin: auto;
+  }
+  
+}
+
+/* @media (min-width: 1024px) {
+  .hero {
+    background-position: ;
+  }
+} */
