@@ -66,7 +66,7 @@ const NavBar = () => {
             <li>ACERCA DE </li>
             <li>PRODUCTOS</li>
             <li>CONTACTO</li>
-            <a href='/' className={styles.shopButton}><i className={`${styles.shopIcon} bx bx-store`}></i>TIENDA</a>
+            <a href='#' className={styles.shopButton}><i className={`${styles.shopIcon} bx bx-store`}></i>TIENDA</a>
           </ul>
         </div>
       </nav>

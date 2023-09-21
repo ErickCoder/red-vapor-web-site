@@ -17,17 +17,17 @@ const Footer = () => {
             </p>
             <div className={styles.iconsContainer}>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <a href="#">
                   <i className="bx bxl-facebook-circle"></i>
                 </a>
               </div>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <a href="#">
                   <i className="bx bxl-instagram-alt"></i>
                 </a>
               </div>
               <div className={styles.backgroundIcon}>
-                <a href="/">
+                <a href="#">
                   <i className="bx bxl-twitter"></i>
                 </a>
               </div>
@@ -38,16 +38,16 @@ const Footer = () => {
             <h3>NAVEGACIÓN</h3>
             <ul>
               <li>
-                <a href="/">HOME</a>
+                <a href="#">HOME</a>
               </li>
               <li>
-                <a href="/">ACERCA DE</a>
+                <a href="#">ACERCA DE</a>
               </li>
               <li>
-                <a href="/">PRODUCTOS</a>
+                <a href="#">PRODUCTOS</a>
               </li>
               <li>
-                <a href="/">CONTACTO</a>
+                <a href="#">CONTACTO</a>
               </li>
             </ul>
             <button className={styles.shopButton}><i className='bx bx-store'>
